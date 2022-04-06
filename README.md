@@ -22,7 +22,7 @@ EG 3: Find the first ancestor with a script child called `MyParentIsTheHolder`.
 ```lua
 print(Tree.FindFirstAncestor(script, {
 	{"Tree", "FindFirstChild", {
-		{"Property", "Name", "ITSMYPARENT"};
+		{"Property", "Name", "MyParentIsTheHolder"};
 		{"Property", "ClassName", "Script"};
 	}};
 }))
