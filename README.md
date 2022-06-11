@@ -2,6 +2,9 @@
 Tree.lua is a tool to navigate between instances using their properties and attributes, these functions are to extend the functionality of the Roblox Engine's built in navigation tools.
 https://www.roblox.com/library/9179877616/Tree
 
+### [Tree is supported by MultiModules](https://github.com/SetAsync/MultiModules)
+
+
 ### [VIEW THE WIKI, WHICH CONTAINS ALL DOCS.](https://github.com/SetAsync/Tree/wiki)
 **Example Usage:**
 EG 1: Look for the first child inside the parent with the Emotion attribute and a value of happy.
