@@ -38,6 +38,10 @@ Terms["Attribute"] = function(Object, Name, Value)
 	return false
 end
 
+Terms["Function"] = function(Object, Function)
+	return Function(Object) or false
+end
+
 Terms["Tree"] = function(Object, TreeFunction, ...)
 	return Tree[TreeFunction](Object, ...)
 end
